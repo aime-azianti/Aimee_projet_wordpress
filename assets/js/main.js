@@ -51,7 +51,7 @@
 
 
     // Service and team carousel
-    $(".service-carousel, .team-carousel").owlCarousel({
+    jQuery(".service-carousel, .team-carousel").owlCarousel({
         autoplay: false,
         smartSpeed: 1500,
         margin: 30,
@@ -80,7 +80,7 @@
 
 
     // Product carousel
-    $(".product-carousel").owlCarousel({
+    jQuery(".product-carousel").owlCarousel({
         autoplay: false,
         smartSpeed: 1500,
         margin: 30,
